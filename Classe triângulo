@@ -1,0 +1,13 @@
+package com.example.projetooperacaomatematica;
+
+public class Operacao {
+    private double Base;
+    private double Altura;
+    public Operacao(double Base, double Altura) {
+        this.Base = Base;
+        this.Altura = Altura;
+    }
+    public double Calcular(){
+        return (Base * Altura)/2;
+    }
+}
